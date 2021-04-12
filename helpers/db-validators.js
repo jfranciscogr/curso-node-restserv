@@ -23,6 +23,9 @@ const ExisteUsuarioId = async (id='') =>{
     if (!existeId) {
         throw  new Error(`El usuario no está registrado en la  BD`)
     }
+    // if (!existeId.estado) {
+    //     throw  new Error(`El usuario no está registrado en la  BD`)
+    // }
 
 }
 
