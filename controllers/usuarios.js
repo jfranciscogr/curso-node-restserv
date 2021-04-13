@@ -62,8 +62,10 @@ const usuariosPut = async (req, res = response) => {
 }
 
 const usuariosPatch = (req, res = response) => {
+
+
     res.json({
-        msg: 'patch API - usuariosPatch'
+        msg: 'patch API - usuariosPatch',
     });
 }
 
